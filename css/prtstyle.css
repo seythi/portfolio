@@ -37,11 +37,11 @@ body{
 margin-top: 0px;
 }
 @-webkit-keyframes gearspin{
-	from {transform: rotate(0deg);}
+	from {transform: rotate(initial);}
 	to {transform: rotate(2turn);}
 }
 @keyframes gearspin{
-	from {transform: rotate(0deg);}
+	from {transform: rotate(initial);}
 	to {transform: rotate(2turn);}
 }
 #sidebar{
