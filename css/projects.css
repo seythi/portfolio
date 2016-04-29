@@ -1,0 +1,28 @@
+.boxlink{
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	min-width: 100px;
+	height: auto;
+	display: inline-block;
+	padding: 2px;
+	position: relative;
+}
+.boxlink img{
+	width: 100%;
+}
+.overlay{
+	display: none;
+	background-color:rgba(0,0,0,0.5);
+	width: 80%;
+	height: 79%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10%;
+	color: blue;
+
+}
+.overlay h1{
+	opacity: 2;
+}

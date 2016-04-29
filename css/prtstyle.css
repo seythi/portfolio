@@ -1,29 +1,30 @@
 body{
-	background-color: grey;
+	background-color: #3F4345;
 	height: 95vh;
 
 }
 .container{
-	background-color: lightgrey;
+	background-color: #B4C0C4;
 	width: 90%;
 	max-width: 1280px;
 	margin-top: 2%;
 	height: 95%;
 	padding: 2%;
+	border-radius: 1%;
 }
 #home{
 	width: 7%;
 	position: absolute;
-	margin-left:4.75%;
-	margin-top:4.75%;
+	margin-left:4.5%;
+	margin-top:4.5%;
 }
 #gear{
 	width: 16%;
 	position: absolute;
 	/*margin: 10%;*/
 	/*transform: rotate(0);*/
-	-webkit-animation: gearspin 3000ms infinite alternate cubic-bezier(.67,.08,.4,.91) paused;
-	animation: gearspin 3000ms infinite alternate cubic-bezier(.67,.08,.4,.91) paused;
+	-webkit-animation: gearspin 3006ms infinite alternate cubic-bezier(.67,.08,.4,.91) paused;
+	animation: gearspin 3006ms infinite alternate cubic-bezier(.67,.08,.4,.91) paused;
 	padding: 0;
 	/*.74,0,.4,.91*/
 	/*.74,0,.32,1*/
@@ -60,7 +61,8 @@ margin-top: 0px;
 	padding: 0 15px;
 }
 button.initnav{
-	margin-bottom: 5%
+	margin-bottom: 5%;
+	width: 100px;
 }
 #hbar{
 	background-color: black;

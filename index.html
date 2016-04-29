@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <base target="_parent" />
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
@@ -106,6 +106,7 @@
     function popout(selection)
     {
       $("#hlabel").html(selection.attr("id"));
+      $("#slideout iframe").attr("src",selection.attr("id") + ".html");
       $("#hbar").delay(500).animate({
         "width":"100%",
       },{duration : 1000, easing: "easeOutBack"});
